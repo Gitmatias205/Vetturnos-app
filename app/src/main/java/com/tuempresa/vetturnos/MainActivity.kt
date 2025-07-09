@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Inicialización de Firebase (corrigiendo el error original)
+
         FirebaseAuth.getInstance()
         FirebaseStorage.getInstance()
         FirebaseFirestore.getInstance()
